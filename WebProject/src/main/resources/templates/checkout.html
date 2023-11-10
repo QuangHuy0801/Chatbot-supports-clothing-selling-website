@@ -229,7 +229,7 @@
 												<div class="color-selector">
 													<label for="select-color">Color: </label>
 													<div class="entry color"
-														th:style="'background:' + ${y.product_details.color}">&nbsp;
+														th:style="'background:' + ${y.product_details.color.strColor}">&nbsp;
 													</div>
 												</div>
 											</div>
@@ -238,7 +238,7 @@
 
 												<div class="size-selector">
 													<label for="select-size">Size: </label>
-													<div class="entry size " th:text="${y.product_details.size}"></div>
+													<div class="entry size " th:text="${y.product_details.size.strSize}"></div>
 
 												</div>
 											</div>

@@ -5,6 +5,7 @@
 <meta charset="utf-8">
 <title>Male-Fashion</title>
 <link rel="icon" href="/img/logo-3.png">
+<link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="/css/invoice.css">
 </head>
 
@@ -66,14 +67,38 @@
 				<table class="margin-top-20">
 					<tr>
 						<th>Description</th>
+						<th>Color</th>
+						<th>Size</th>
 						<th>Quantity</th>
 						<th>Total</th>
 					</tr>
 					<th:block th:each="y: ${listOrder_Item}">
 						<tr>
 							<td th:text="${y.product_details.product.product_Name}"></td>
+							<td>
+								<div class="row product-filters" th:if="${y.product_details.size!=1}">
+
+
+									<div class="color-selector">
+
+										<div class="entry color" style="display: block;"
+											th:style="'background:' + ${y.product_details.color.strColor}">&nbsp;
+										</div>
+									</div>
+
+								</div>
+							</td>
+							<td>
+								<div class="entry size " th:text="${y.product_details.size.strSize}"
+									th:if="${y.product_details.size!=1}">
+
+								</div>
+
+							</td>
 							<td th:text="${y.count}"></td>
-							<td th:text="${y.product_details.product.price} * ${y.count} + ' VNĐ'"></td>
+							<td
+								th:text="${#numbers.formatDecimal(y.product_details.product.price * y.count, 0, 'COMMA', 0, 'POINT')} + ' VNĐ'">
+							</td>
 						</tr>
 					</th:block>
 
@@ -85,8 +110,8 @@
 					<strong class="margin-bottom-5">Payment method: </strong>
 					<i th:text="${order.payment_Method}"></i>
 				</p>
-				
-				
+
+
 			</div>
 
 			<div class="col-md-4 col-md-offset-8">
@@ -94,7 +119,9 @@
 				<table id="totals">
 					<tr>
 						<th>Total Due</th>
-						<th><span th:text="${order.total} + ' VNĐ'"></span></th>
+						<th><span
+								th:text="${#numbers.formatDecimal(order.total, 0, 'COMMA', 0, 'POINT')} + ' VNĐ'"></span>
+						</th>
 
 					</tr>
 				</table>
@@ -107,8 +134,8 @@
 			<div class="col-md-12">
 				<ul id="footer">
 					<li><span>www.example.com</span></li>
-					<li>haovo1512@gmail.com</li>
-					<li>0799 197 703</li>
+					<li>vanchikhanh4@gmail.com</li>
+					<li>0931 876 293</li>
 				</ul>
 			</div>
 		</div>

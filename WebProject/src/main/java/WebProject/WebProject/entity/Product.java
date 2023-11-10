@@ -16,6 +16,10 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
+import WebProject.WebProject.repository.ColorReponsitory;
+import WebProject.WebProject.repository.SizeReponsitory;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -28,6 +32,8 @@ import lombok.ToString;
 @NoArgsConstructor
 @Table(name = "product")
 public class Product {
+;
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
@@ -69,5 +75,6 @@ public class Product {
 	@OneToMany(mappedBy = "product", cascade = CascadeType.ALL)
 	private List<Product_details> product_details;
 	
+
 	
 }

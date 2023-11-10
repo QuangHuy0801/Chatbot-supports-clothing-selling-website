@@ -32,7 +32,7 @@ public class ProductDetailsServicempl implements ProductDetailsService {
 	 * product_id, color, size); }
 	 */
 	@Override
-	public Product_details findByProduct_details_size_color(int product_id, int size, String color) {
+	public Product_details findByProduct_details_size_color(int product_id, int size, int color) {
 		// TODO Auto-generated method stub
 		return productDetailsReponsitory.findByProduct_details_size_color( product_id, size ,color);
 	}

@@ -274,11 +274,11 @@
 	<!-- Categories Section End -->
 
 	<!--chatbox-->
-	<div class="chat-icon" onclick="toggleChatBox()">
+		 <div class="chat-icon" onclick="toggleChatBox()" >
 		<img src="/img/chatbox/chat-icon.jpg" alt="Chat Icon">
 	</div>
 	<div class="msger_container1">
-		<div class="msger_container2 closed" id="chat-box">
+		<div class="msger_container2" id="chat-box" >
 			<div class="msger_container3">
 				<section class="msger">
 					<header class="msger-header">
@@ -304,7 +304,7 @@
 										<div class="msg-info-time" th:text="${y.timestamp}"></div>
 									</div>
 
-									<div class="msg-text" th:text="${y.message}">
+									<div class="msg-text"  th:utext=" ${y.message}">đây là tin nhắn
 									</div>
 								</div>
 							</div>
@@ -321,7 +321,7 @@
 										<div class="msg-info-time" th:text="${y.timestamp}" ></div>
 									</div>
 
-									<div class="msg-text" th:text="${y.message}">
+									<div class="msg-text"  th:text=" ${y.message}" >đây là tin nhắn
 									</div>
 									
 								</div>

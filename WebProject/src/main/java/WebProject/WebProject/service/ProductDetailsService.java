@@ -16,7 +16,7 @@ public interface ProductDetailsService {
 	 * color, int size);
 	 */
 	
-	Product_details findByProduct_details_size_color(int product_id,int size, String color);
+	Product_details findByProduct_details_size_color(int product_id,int size, int color);
 	
 	Product_details saveProduct_details(Product_details product_details);
 	

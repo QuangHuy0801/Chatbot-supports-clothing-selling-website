@@ -1,5 +1,9 @@
 package momo;
 
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.web.bind.annotation.GetMapping;
+
 public class ResultMoMo {
 	public String t;
 	public String partnerCode;
@@ -12,15 +16,18 @@ public class ResultMoMo {
 	public String message;
 	public String resultCode;
 	public String payUrl;
+	public String qrCodeUrl;
 
 	public ResultMoMo() {
 		super();
 	}
 
-	public ResultMoMo(String t, String deeplink, String deeplinkMiniApp, String partnerCode, String orderId,
-			String requestId, String amount, String responseTime, String message, String resultCode, String payUrl) {
+	public ResultMoMo(String t, String qrCodeUrl, String deeplink, String deeplinkMiniApp, String partnerCode,
+			String orderId, String requestId, String amount, String responseTime, String message, String resultCode,
+			String payUrl) {
 		super();
 		this.t = t;
+		this.qrCodeUrl = qrCodeUrl;
 		this.deeplink = deeplink;
 		this.deeplinkMiniApp = deeplinkMiniApp;
 		this.partnerCode = partnerCode;
@@ -119,6 +126,9 @@ public class ResultMoMo {
 
 	public void setPayUrl(String payUrl) {
 		this.payUrl = payUrl;
+	}
+	public String getQrCodeUrl() {
+	    return qrCodeUrl;
 	}
 
 }

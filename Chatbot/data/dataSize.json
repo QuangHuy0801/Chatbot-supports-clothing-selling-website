@@ -1,0 +1,163 @@
+{
+  "intents": [
+    {
+      "tag": "size S",
+      "patterns": [
+        "s",
+        "1m60 50kg",
+        "1m6 50kg",
+        "1m61 51kg",
+        "1m62 52kg",
+        "1m63 53kg",
+        "1m64 54kg",
+        "1m65 55kg",
+        "160cm 50kg",
+        "160cm 51kg",
+        "162cm 52kg",
+        "163cm 53kg",
+        "164cm 54kg",
+        "165cm 55kg",
+        "nhỏ",
+        "lùn",
+        "thấp",
+        "khiêm tốn"
+      ],
+      "responses": ["Size quần áo phù hợp với bạn là size S"],
+      "context": [""]
+    },
+    {
+      "tag": "size L",
+      "patterns": [
+        "l",
+        "1m66 56kg",
+        "1m67 57kg",
+        "1m68 58kg",
+        "1m69 59kg",
+        "1m70 60kg",
+        "1m7 60kg",
+        "1m71 61kg",
+        "1m72 62kg",
+        "1m73 63kg",
+        "1m74 64kg",
+        "1m75 65kg",
+
+        "166cm 56kg",
+        "167cm 57kg",
+        "168cm 58kg",
+        "169cm 59kg",
+        "170cm 60kg",
+        "171cm 61kg",
+        "172cm 62kg",
+        "173cm 63kg",
+        "174cm 64kg",
+        "175cm 65kg",
+
+        "1m7 50kg",
+        "1m71 51kg",
+        "1m72 52kg",
+        "1m73 53kg",
+        "1m74 54kg",
+        "1m75 55kg",
+        "trung bình"
+      ],
+      "responses": ["Size quần áo phù hợp với bạn là size L"],
+      "context": [""]
+    },
+    {
+      "tag": "size XL",
+      "patterns": [
+        "xl",
+        "lều khều",
+        "1m76 66kg",
+        "1m77 67kg",
+        "1m78 68kg",
+        "1m79 69kg",
+        "1m80 70kg",
+        "1m81 71kg",
+        "1m82 72kg",
+        "1m83 73kg",
+        "1m8 70kg",
+        "1m84 74kg",
+        "1m85 75kg",
+        "1m86 76kg",
+        "1m87 77kg",
+        "1m88 78kg",
+        "1m89 79kg",
+        "1m90 80kg",
+
+        "176cm 51kg",
+        "177cm 52kg",
+        "178cm 53kg",
+        "179cm 54kg",
+        "180cm 55kg",
+        "181cm 56kg",
+        "182cm 57kg",
+        "183cm 58kg",
+        "184cm 59kg",
+        "185cm 60kg",
+        "186cm 61kg",
+        "187cm 62kg",
+        "188cm 63kg",
+        "189cm 64kg",
+        "190cm 65kg",
+        "80kg"
+      ],
+      "responses": ["Size quần áo phù hợp với bạn là size XL"],
+      "context": [""]
+    },
+    {
+      "tag": "size 38",
+      "patterns": ["bàn chân 22cm", "22cm", "bàn chân nhỏ", "bàn chân bé","38"],
+      "responses": ["Size giày phù hợp với bạn là size 38"],
+      "context": [""]
+    },
+    {
+      "tag": "size 39",
+      "patterns": [
+        "39",
+        "23cm"
+      ],
+      "responses": ["Size giày phù hợp với bạn là size 39"],
+      "context": [""]
+    },
+    {
+      "tag": "size 40",
+      "patterns": ["40","24cm"],
+      "responses": ["Size giày phù hợp với bạn là size 40"],
+      "context": [""]
+    },
+    {
+      "tag": "size 41",
+      "patterns": [
+        "41","25cm"
+      ],
+      "responses": ["Size giày phù hợp với bạn là size 41"],
+      "context": [""]
+    },
+    {
+      "tag": "size 42",
+      "patterns": [
+        "42",
+        "tầm 26cm"
+      ],
+      "responses": ["Size giày phù hợp với bạn là size 42"],
+      "context": [""]
+    },
+    {
+      "tag": "size 43",
+      "patterns": [
+        "43",
+        "dài khoảng 27cm"
+      ],
+      "responses": ["Size giày phù hợp với bạn là size 43"],
+      "context": [""]
+    },
+    
+    {
+      "tag": "",
+      "patterns": [""],
+      "responses": ["Tôi cần thêm thông tin"],
+      "context": [""]
+    }
+  ]
+}

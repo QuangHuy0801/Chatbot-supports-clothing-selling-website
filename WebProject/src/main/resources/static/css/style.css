@@ -3874,6 +3874,7 @@ ol {
 .product-filters{margin-bottom: 30px;}
  .product-filters .color-selector .entry {
         border-radius: 50%;
+        border: 1px solid rgb(0, 0, 0); 
         -moz-border-radius: 50%;
         -webkit-border-radius: 50%;
         width: 25px;
@@ -3912,7 +3913,7 @@ ol {
         }
 
         .product-filters .color-selector .entry.active:after {
-            border: 2px solid #333;
+            border: 3px solid rgb(255, 0, 0);
             opacity: 1;
         }
 

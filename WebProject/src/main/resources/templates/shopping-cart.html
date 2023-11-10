@@ -195,16 +195,16 @@
 							                                    <div class="col-md-6 filters-color">
                                         
                                         </select>
-                                        <div class="color-selector" th:if="${y.product_details.size!=1}">
-                                            <label for="select-color" >Color: </label> <div class="entry color"   th:style="'background:' + ${y.product_details.color}">&nbsp;</div> 
+                                        <div class="color-selector">
+                                            <label for="select-color" >Color: </label> <div class="entry color"   th:style="'background:' + ${y.product_details.color.strColor}">&nbsp;</div> 
                                         </div>
                                     </div>
                                     <div class="col-md-6 filters-size">
                                    
                                         </select>
-                                        <div class="size-selector" th:if="${y.product_details.size!=1}">
+                                        <div class="size-selector" >
 											<label for="select-size">Size: </label>
-                                            <div class="entry size" th:text="${y.product_details.size}"></div>
+                                            <div class="entry size" th:text="${y.product_details.size.strSize}"></div>
                                             
                                         </div>
                                     </div>

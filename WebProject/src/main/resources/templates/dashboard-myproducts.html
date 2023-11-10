@@ -208,19 +208,19 @@
 													<span th:text="'Availability: ' + ${y.quantity}"></span>
 													<div class="row product-filters" th:if="${y.product_details.size!=1}">
 							                                    <div class="col-md-6 filters-color">
-                                        <label for="select-color" >Color</label>
-                                        </select>
+                                        <!--<label for="select-color" >Color</label>
+                                     
                                         <div class="color-selector">
-                                            <div class="entry color" th:each="x : ${y.product_details}" th:value="${x.color}" th:style="'background:' + ${x.color}">&nbsp;</div> 
+                                            <div class="entry color" th:each="x : ${y.renderColor()}" th:value="${x}" th:style="'background:' + ${x}">&nbsp;</div> 
                                         </div>
                                     </div>
                                     <div class="col-md-6 filters-size">
                                         <label for="select-size">Size</label>
                                         </select>
                                         <div class="size-selector">
-                                            <div class="entry size " th:each="x : ${y.product_details}" th:value="${x.size}" th:text="${x.size}"></div>
+                                            <div class="entry size " th:each="x : ${y.renderSize()}" th:value="${x}" th:text="${x}"></div>
                                             
-                                        </div>
+                                        </div>-->
                                     </div>
                                     </div>
 												</div>

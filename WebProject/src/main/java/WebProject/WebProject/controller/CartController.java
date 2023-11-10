@@ -25,6 +25,8 @@ import WebProject.WebProject.entity.Product;
 import WebProject.WebProject.entity.ProductImage;
 import WebProject.WebProject.entity.Product_details;
 import WebProject.WebProject.entity.User;
+import WebProject.WebProject.repository.ColorReponsitory;
+import WebProject.WebProject.repository.SizeReponsitory;
 import WebProject.WebProject.service.CartService;
 import WebProject.WebProject.service.ProductDetailsService;
 import WebProject.WebProject.service.ProductService;
@@ -34,7 +36,11 @@ public class CartController {
 
 	@Autowired
 	CartService cartService;
-
+	@Autowired
+	ColorReponsitory colorReponsitory;
+	
+	@Autowired
+	SizeReponsitory sizeReponsitory;
 	@Autowired
 	ProductService productService;
 
@@ -131,21 +137,22 @@ public class CartController {
 		String referer = request.getHeader("Referer");
 		User user = (User) session.getAttribute("acc");
 		String color= request.getParameter("color");
+		System.out.println("color"+ color);
+		System.out.println(123);
 		String size= request.getParameter("size");
+		System.out.println("size"+ size);
 		if (user == null) {
 			session.setAttribute("AddToCartErr", "Vui lòng đăng nhập trước khi thực hiện thao tác");
 			return "redirect:" + referer;
 		}
-		if(product.getProduct_details().size()!=1) {
-		if (color.trim().equals("#") ) {
+		
+		if (color.trim().equals("0") ) {
 		    session.setAttribute("AddToCartWanColor", "Vui lòng chọn màu!");
 		    return "redirect:" + referer;
 		}
-		if ( size.trim().equals("1")) {
+		if ( size.trim().equals("")) {
 		    session.setAttribute("AddToCartWanSize", "Vui lòng size !");
 		    return "redirect:" + referer;
-		}
-		
 		}
 		
 			List<Cart> listCart = cartService.GetAllCartByUser_id(user.getId());
@@ -160,8 +167,8 @@ public class CartController {
 			 * productDetailsService.findByProduct_details_size_color(product_id, color,
 			 * Integer.parseInt(size));
 			 */
-
-			Product_details product_details_size_color= productDetailsService.findByProduct_details_size_color(product_id,Integer.parseInt(size.trim()),color.trim());
+			int idSize =sizeReponsitory.getIdByName(size.trim());
+			Product_details product_details_size_color= productDetailsService.findByProduct_details_size_color(product_id,idSize,Integer.parseInt(color.trim()));
 			System.out.println(product_details_size_color);
 			if(product_details_size_color == null ) {
 				session.setAttribute("errcolor_size_color", "màu của size này đã hết!");

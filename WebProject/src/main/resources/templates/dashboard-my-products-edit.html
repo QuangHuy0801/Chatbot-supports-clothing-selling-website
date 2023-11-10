@@ -25,8 +25,11 @@
 
 	<!-- Wrapper -->
 	<div id="wrapper">
-		<script th:if="${editProduct != null}">
+		<script th:if="${editProduct == 'editProductSuccess'}">
 			swal("Edit successful product!", "", "success");
+		</script>
+		<script th:if="${editProduct == 'editProductErr'}">
+			swal("Edit error product!", "", "error");
 		</script>
 		<!-- Header Container
 ================================================== -->
@@ -337,12 +340,18 @@
 														style="display: none;">
 													<input th:value="${product.id}" name="pid" type="text"
 														style="display: none;">
-													<input th:value="${y.color}" name="pdcolor" type="text"
-														placeholder="y.color">
+													<!--<input th:value="${y.color.strColor}" name="pdcolor" type="text"
+														placeholder="y.color">-->
+													<select th:name="pdcolor">
+														<option th:each="color: ${renderColor}" th:value="${color}"
+															th:text="${color}" th:selected="(${color} == ${y.color.strColor})"></option>
+													</select>
 												</td>
 												<td class="col-md-4">
-													<input th:value="${y.size}" name="pdsize" type="text"
-														placeholder="y.size">
+													<select th:name="pdsize">
+														<option th:each="size: ${renderSize}" th:value="${size}"
+															th:text="${size}" th:selected="(${size} == ${y.size.strSize})"></option>
+													</select>
 												</td>
 												<td class="col-md-4">
 													<input th:value="${y.quantity}" name="pdquantity" type="text"
@@ -395,10 +404,16 @@
 												<td class="col-md-4">
 													<input th:value="${product.id}" name="pid" type="text"
 														placeholder="" style="display: none;">
-													<input name="color" type="text" placeholder="new">
+													<select th:name="color">
+														<option th:each="color: ${renderColor}" th:value="${color}"
+															th:text="${color}" ></option>
+													</select>
 												</td>
 												<td class="col-md-4">
-													<input name="size" type="text" placeholder="new">
+													<select th:name="size">
+														<option th:each="size: ${renderSize}" th:value="${size}"
+															th:text="${size}" ></option>
+													</select>
 												</td>
 												<td class="col-md-4">
 													<input name="quantity" type="text" placeholder="new">

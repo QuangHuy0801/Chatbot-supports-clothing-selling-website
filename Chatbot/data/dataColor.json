@@ -1,0 +1,83 @@
+{
+    "intents": [
+        {
+            "tag": "red",
+            "patterns": ["Đỏ thẩm","red","Crimson","Bronze red","Brick red",
+            "bordeaux",
+            "rượu vang",
+            "Đỏ thẫm",
+            "đỏ đậm"],
+            "responses": ["Dưới đây là một số mẫu có màu đỏ bạn có thể tham khảo:", "Chúng tôi có một số mẫu có màu đỏ dành cho bạn:", "Bạn có thể tham khảo các sản phẩm có màu đỏ sau đây:"],
+          "context": [""]
+          },
+          {
+            "tag": "yellow",
+            "patterns": ["Vàng","Vàng nhạt"," Vàng đậm","Vàng kim","Vàng đồng","mật ong","hoa hướng dương",
+            "Vàng chanh","Vàng nghệ","Vàng cam","yellow"
+           ],
+            "responses": ["Dưới đây là một số mẫu có màu vàng bạn có thể tham khảo:", "Chúng tôi có một số mẫu có màu vàng dành cho bạn:", "Bạn có thể tham khảo các sản phẩm có màu vàng sau đây:"],
+          "context": [""]
+          },
+          {
+            "tag": "white",
+            "patterns": ["Trắng","Trắng tinh khiết","Trắng tuyết","Trắng kem","Trắng ngà","Trắng sữa","Trắng xám","milk","snow"
+           ],
+            "responses": ["Dưới đây là một số mẫu có màu trắng bạn có thể tham khảo:", "Chúng tôi có một số mẫu có màu trắng dành cho bạn:", "Bạn có thể tham khảo các sản phẩm có màu trắng sau đây:"],
+          "context": [""]
+          },
+
+          {
+            "tag": "blue",
+            "patterns": ["blue","xanh da trời","xanh nước biển","xanh lam nhạt", "xanh lam đậm","xanh ngọc","xanh dương"
+           ],
+            "responses": ["Dưới đây là một số mẫu có màu xanh lam bạn có thể tham khảo:", "Chúng tôi có một số mẫu có màu xanh lam dành cho bạn:", "Bạn có thể tham khảo các sản phẩm có màu xanh lam sau đây:"],
+          "context": [""]
+          },
+
+          {
+            "tag": "black",
+            "patterns": ["black","đen","than","tăm tối", "bóng tối","đen thui"
+           ],
+            "responses": ["Dưới đây là một số mẫu có màu xanh lam bạn có thể tham khảo:", "Chúng tôi có một số mẫu có màu xanh lam dành cho bạn:", "Bạn có thể tham khảo các sản phẩm có màu xanh lam sau đây:"],
+          "context": [""]
+          },
+          {
+            "tag": "gray",
+            "patterns": ["gray","xám tro","xám bụi","xám xịt"
+           ],
+            "responses": ["Dưới đây là một số mẫu có màu xanh lam bạn có thể tham khảo:", "Chúng tôi có một số mẫu có màu xanh lam dành cho bạn:", "Bạn có thể tham khảo các sản phẩm có màu xanh lam sau đây:"],
+          "context": [""]
+          },
+          {
+            "tag": "pink",
+            "patterns": ["pink","hồng","hồng cánh sen","hồng seb","Hồng phấn","Hồng đất","Hồng cam","Hồng nhạt","Hồng pastel","Hồng cánh sen","Hồng san hô","Hồng tím","Hồng ruốc","Hồng baby","Hồng dâu","Môi hồng cam","Hồng cam san hô","Hồng tươi","Hồng sen","Hồng cánh sen đậm",
+            "Hồng đỏ","Hồng vàng","Hồng khói","Hồng be",
+            "Hồng vỏ đỗ","Hồng da","Hồng đất 3CE","Hồng mận",
+            "Hồng trà","Hồng ngọc","hồng Đào"
+           ],
+            "responses": ["Dưới đây là một số mẫu có màu xanh lam bạn có thể tham khảo:", "Chúng tôi có một số mẫu có màu xanh lam dành cho bạn:", "Bạn có thể tham khảo các sản phẩm có màu xanh lam sau đây:"],
+          "context": [""]
+          },
+          {
+            "tag": "brown",
+            "patterns": ["nâu","brown","da bò","nâu trà sửa"
+           ],
+            "responses": ["Dưới đây là một số mẫu có màu xanh lam bạn có thể tham khảo:", "Chúng tôi có một số mẫu có màu xanh lam dành cho bạn:", "Bạn có thể tham khảo các sản phẩm có màu xanh lam sau đây:"],
+          "context": [""]
+          },
+          {
+            "tag": "green",
+            "patterns": ["xanh lá cây","green","xanh lục bảo","xanh lục"
+           ],
+            "responses": ["Dưới đây là một số mẫu có màu xanh lam bạn có thể tham khảo:", "Chúng tôi có một số mẫu có màu xanh lam dành cho bạn:", "Bạn có thể tham khảo các sản phẩm có màu xanh lam sau đây:"],
+          "context": [""]
+          },
+         
+          {
+            "tag": "",
+            "patterns": [""
+          ],
+            "responses": ["Tôi cần thêm thông tin"],
+          "context": [""]
+          }
+    ]}

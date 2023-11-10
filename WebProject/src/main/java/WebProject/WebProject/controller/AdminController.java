@@ -31,8 +31,10 @@ import WebProject.WebProject.entity.ProductImage;
 import WebProject.WebProject.entity.Product_details;
 import WebProject.WebProject.entity.User;
 import WebProject.WebProject.model.Mail;
+import WebProject.WebProject.repository.ColorReponsitory;
 import WebProject.WebProject.repository.ProductDetailsReponsitory;
 import WebProject.WebProject.repository.ProductRepository;
+import WebProject.WebProject.repository.SizeReponsitory;
 import WebProject.WebProject.service.CategoryService;
 import WebProject.WebProject.service.CloudinaryService;
 import WebProject.WebProject.service.MailService;
@@ -77,6 +79,13 @@ public class AdminController {
 
 	@Autowired
 	ProductImageService productImageService;
+	
+	@Autowired
+	ColorReponsitory colorReponsitory;
+
+	@Autowired
+	SizeReponsitory sizeReponsitory;
+
 	
 	
 	
@@ -279,6 +288,8 @@ public class AdminController {
 			model.addAttribute("listCategories", listCategories);
 			String editProduct = (String) session.getAttribute("editProduct");
 			model.addAttribute("editProduct", editProduct);
+			model.addAttribute("renderColor", colorReponsitory.getAllColor());
+			model.addAttribute("renderSize", sizeReponsitory.getAllSize());
 			session.setAttribute("editProduct", null);
 			return "dashboard-my-products-edit";
 		}
@@ -328,7 +339,7 @@ public class AdminController {
 	
 	@PostMapping("/dashboard-myproducts/edit/details")
 	public String DashboardMyProductEditDetailsHandel(Model model, @ModelAttribute("pdid") int product_details_id,
-			@ModelAttribute("pdcolor") String color, @ModelAttribute("pdsize") int size,@ModelAttribute("pid") int product_id,
+			@ModelAttribute("pdcolor") String color, @ModelAttribute("pdsize") String size,@ModelAttribute("pid") int product_id,
 			@ModelAttribute("pdquantity") int quantity)
 			
 			throws Exception {
@@ -336,17 +347,24 @@ public class AdminController {
 		if (admin == null) {
 			return "redirect:/signin-admin";
 		} else {
+			if(quantity<=0) {
+				session.setAttribute("editProduct", "editProductErr");
+				return "redirect:/dashboard-myproducts/edit/" + product_id;
+			};
 				Product product = productService.getProductById(product_id);
 				Product_details product_details =productDetailsService.getProduct_detailsById(product_details_id);
-//				System.out.println(cate);
-//				long millis = System.currentTimeMillis();
-//				Date create_at = new java.sql.Date(millis);
-//				Product newPro = new Product();
-				product_details.setColor(color);
-				product_details.setSize(size);
+				for(Product_details x:	productDetailsReponsitory.findProduct_detailsByIdproduct(product.getId())){
+					if(x.getColor().getStrColor().equals(color.trim())&& x.getSize().getStrSize().equals(size.trim()))
+					{
+						session.setAttribute("editProduct", "editProductErr");
+						return "redirect:/dashboard-myproducts/edit/" + product_id;
+					}
+				}
+				product_details.setColor(colorReponsitory.getColorByName(color.trim()));
+				product_details.setSize(sizeReponsitory.getByName(size.trim()));
 				product_details.setQuantity(quantity);
+				product_details.setProduct(product);
 				productDetailsService.saveProduct_details(product_details);
-				System.out.println(1);
 				productDetailsReponsitory.updateQuantityByProductId(product_id);
 				System.out.println(2);
 				session.setAttribute("editProduct", "editProductSuccess");
@@ -358,39 +376,41 @@ public class AdminController {
 	
 	@PostMapping("/dashboard-myproducts/edit/updatedetails")
 	public String DashboardMyProductEditUpdateDetailsHandel(Model model, @ModelAttribute("pid") int product_id,
-			@ModelAttribute("color") String color,@ModelAttribute("size") int size,
-			@ModelAttribute("quantity") int quantity)
+			@ModelAttribute("color") String color,@ModelAttribute("size") String size,
+			@RequestParam(name = "quantity", required = false, defaultValue = "0") int quantity)
 			throws Exception {
 		User admin = (User) session.getAttribute("admin");
+		System.out.println(color+"tôi ở đây");
+		System.out.println(size);
+		System.out.println(quantity);
 		if (admin == null) {
 			return "redirect:/signin-admin";
 		} else {
+			if(quantity<=0) {
+				session.setAttribute("editProduct", "editProductErr");
+				return "redirect:/dashboard-myproducts/edit/" + product_id;
+			};
 				Product product = productService.getProductById(product_id);
 				Product_details product_details = new Product_details();
-				System.out.println(0);
-				if(product.getProduct_details().size()==1 ) {
+			/*	int idColor=colorReponsitory.getIdColorByName(color.trim());
+				int idSize=  sizeReponsitory.getIdByName(size.trim());*/
 
-					if(product.getProduct_details().get(0).getSize()==1 && product.getProduct_details().get(0).getColor().trim().equals("#"))
-					{
-						
-						product_details=product.getProduct_details().get(0);
-						
-					}
+			for(Product_details x:	productDetailsReponsitory.findProduct_detailsByIdproduct(product.getId())){
+				if(x.getColor().getStrColor().equals(color.trim())&& x.getSize().getStrSize().equals(size.trim()))
+				{
+					session.setAttribute("editProduct", "editProductErr");
+					return "redirect:/dashboard-myproducts/edit/" + product_id;
 				}
-//				System.out.println(cate);
-//				long millis = System.currentTimeMillis();
-//				Date create_at = new java.sql.Date(millis);
-//				Product newPro = new Product();
-				product_details.setColor(color);
-				product_details.setSize(size);
+			}
+			
+				product_details.setColor(colorReponsitory.getColorByName(color.trim()));
+				product_details.setSize(sizeReponsitory.getByName(size.trim()));
 				product_details.setQuantity(quantity);
 				product_details.setProduct(product);
 				productDetailsService.saveProduct_details(product_details);
 				productDetailsReponsitory.updateQuantityByProductId(product_id);
 				session.setAttribute("editProduct", "editProductSuccess");
 				return "redirect:/dashboard-myproducts/edit/" + product_id;
-		
-
 		}
 	}
 	
@@ -534,10 +554,11 @@ public class AdminController {
 					productImageService.save(img);
 				}
 				Product_details product_details =new Product_details();
-				product_details.setColor("#");
-				product_details.setQuantity(Integer.parseInt(availability));
-				product_details.setSize(1);
-				product_details.setProduct(newPro);
+				/*
+				 * product_details.setColor("#");
+				 * product_details.setQuantity(Integer.parseInt(availability));
+				 * product_details.setSize(1); product_details.setProduct(newPro);
+				 */
 				productDetailsService.saveProduct_details(product_details);
 				System.out.println(3);
 				session.setAttribute("addProduct", "addProductSuccess");

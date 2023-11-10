@@ -30,23 +30,34 @@ public class Product_details {
 		@GeneratedValue(strategy = GenerationType.IDENTITY)
 		private int id;
 
-		@Column(name = "size")
-		private int size;
-		
-		@Column(name = "color", columnDefinition = "nvarchar(11)")
-		private String color;
-
 		@Column(name = "quantity" )
 		private int quantity;
+		
 		@ManyToOne
 		@JoinColumn(name = "product_id")
 		@EqualsAndHashCode.Exclude
 		@ToString.Exclude
 		private Product product;
 		
+		
+		  @ManyToOne
+		  @JoinColumn(name = "size_id")
+		  @EqualsAndHashCode.Exclude
+		  @ToString.Exclude 
+		  private Size size;
+		  
+		  @ManyToOne
+		  @JoinColumn(name = "color_id")
+		  @EqualsAndHashCode.Exclude
+		  @ToString.Exclude 
+		  private Color color;
+		 
+		
 		@OneToMany(mappedBy = "product_details", cascade = CascadeType.ALL)
 		private List<Order_Item> order_Item;
 		
 		@OneToMany(mappedBy = "product_details", cascade = CascadeType.ALL)
 		private List<Cart> cart;
+		
+
 }

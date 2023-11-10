@@ -1,0 +1,1264 @@
+{
+    "intents": [
+      {
+        "tag": "Quần",
+        "patterns": ["quần", "Quần"],
+        "responses": ["Dưới đây là một số mẫu quần bạn có thể tham khảo:", "Chúng tôi có một số mẫu quần đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu quần sau đây:"],
+      "context": [""]
+      },
+      {
+        "tag": "Áo",
+        "patterns": ["áo", "Áo"],
+        "responses": ["Dưới đây là một số mẫu áo bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo sau đây:"],
+      "context": [""]
+      },
+      {
+        "tag": "Giày",
+        "patterns": ["Giày","giày"],
+        "responses": ["Dưới đây là một số mẫu giày bạn có thể tham khảo:", "Chúng tôi có một số mẫu giày đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu giày sau đây:"],
+      "context": [""]
+      },
+      {
+        "tag": "Kính",
+        "patterns": ["Kính","kính"],
+        "responses": ["Dưới đây là một số mẫu kính bạn có thể tham khảo:", "Chúng tôi có một số mẫu kính đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu kính sau đây:"],
+      "context": [""]
+      },
+      {
+        "tag": "Mũ",
+        "patterns": ["Mũ","mũ"],
+        "responses": ["Dưới đây là một số mẫu mũ bạn có thể tham khảo:", "Chúng tôi có một số mẫu mũ đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu mũ sau đây:"],
+      "context": [""]
+      },
+      {
+        "tag": "red",
+        "patterns": ["red","Red"],
+        "responses": ["Dưới đây là một số mẫu có màu đỏ bạn có thể tham khảo:", "Chúng tôi có một số mẫu có màu đỏ dành cho bạn:", "Bạn có thể tham khảo các sản phẩm có màu đỏ sau đây:"],
+      "context": [""]
+      },
+      {
+        "tag": "yellow",
+        "patterns": ["Yellow","yellow"],
+        "responses": ["Dưới đây là một số mẫu có màu vàng bạn có thể tham khảo:", "Chúng tôi có một số mẫu có màu vàng dành cho bạn:", "Bạn có thể tham khảo các sản phẩm có màu vàng sau đây:"],
+      "context": [""]
+      },
+      {
+        "tag": "white",
+        "patterns": ["white","White"
+       ],
+        "responses": ["Dưới đây là một số mẫu có màu trắng bạn có thể tham khảo:", "Chúng tôi có một số mẫu có màu trắng dành cho bạn:", "Bạn có thể tham khảo các sản phẩm có màu trắng sau đây:"],
+      "context": [""]
+      },
+      {
+        "tag": "black",
+        "patterns": ["black", "black"],
+        "responses": ["Dưới đây là một số mẫu màu đen bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu đen đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu đen sau đây:"],
+      "context": [""]
+      },
+      {
+        "tag": "blue",
+        "patterns": ["blue", "blue"],
+        "responses": ["Dưới đây là một số mẫu màu xanh lam bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu xanh lam đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu xanh lam sau đây:"],
+      "context": [""]
+      },
+      {
+        "tag": "gray",
+        "patterns": ["gray", "gray"],
+        "responses": ["Dưới đây là một số mẫu màu xám bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu xám đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu xám sau đây:"],
+      "context": [""]
+      },
+      {
+        "tag": "pink",
+        "patterns": ["pink", "pink"],
+        "responses": ["Dưới đây là một số mẫu màu hồng bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu hồng đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu hồng sau đây:"],
+      "context": [""]
+      },
+      {
+        "tag": "green",
+        "patterns": ["green", "green"],
+        "responses": ["Dưới đây là một số mẫu màu xanh lục bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu xanh lục đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu xanh lục sau đây:"],
+      "context": [""]
+      },
+      {
+        "tag": "brown",
+        "patterns": ["brown", "brown"],
+        "responses": ["Dưới đây là một số mẫu màu nâu bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu nâu đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu nâu sau đây:"],
+      "context": [""]
+      },
+      {"tag": "Tư vấn quần áo",
+      "patterns": ["Tư vấn quần áo"],
+      "responses": ["Hãy cho tôi biết chiều cao (cm), cân nặng(kg) của bạn, tôi sẽ giúp bạn size quần áo phù hợp!"],
+	"context": [""]},
+    {
+    "tag": "Tư vấn giày",
+      "patterns": ["Tư vấn giày"],
+      "responses": ["Hãy cho tôi biết chiều dài (cm) bàn chân của bạn, tôi sẽ giúp bạn size giày phù hợp!"],
+	"context": [""] },
+
+    {
+      "tag": "Áo red",
+      "patterns": ["Áo red", "áo Red"],
+      "responses": ["Dưới đây là một số mẫu áo màu đỏ bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu đỏ đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu đỏ sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo yellow",
+      "patterns": ["Áo yellow", "áo yellow"],
+      "responses": ["Dưới đây là một số mẫu áo màu vàng bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu vàng đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu vàng sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo white",
+      "patterns": ["Áo white", "áo white"],
+      "responses": ["Dưới đây là một số mẫu áo màu trắng bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu trắng đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu trắng sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo black",
+      "patterns": ["Áo black", "áo black"],
+      "responses": ["Dưới đây là một số mẫu áo màu đen bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu đen đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu đen sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo blue",
+      "patterns": ["Áo blue", "áo blue"],
+      "responses": ["Dưới đây là một số mẫu áo màu xanh lam bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu xanh lam đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu xanh lam sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo gray",
+      "patterns": ["Áo gray", "áo gray"],
+      "responses": ["Dưới đây là một số mẫu áo màu xám bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu xám đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu xám sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo pink",
+      "patterns": ["Áo pink", "áo pink"],
+      "responses": ["Dưới đây là một số mẫu áo màu hồng bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu hồng đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu hồng sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo green",
+      "patterns": ["Áo green", "áo green"],
+      "responses": ["Dưới đây là một số mẫu áo màu xanh lục bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu xanh lục đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu xanh lục sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo brown",
+      "patterns": ["Áo brown", "áo brown"],
+      "responses": ["Dưới đây là một số mẫu áo màu nâu bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu nâu đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu nâu sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần red",
+      "patterns": ["Quần red", "Quần Red"],
+      "responses": ["Dưới đây là một số mẫu Quần màu đỏ bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu đỏ đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu đỏ sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần yellow",
+      "patterns": ["Quần yellow", "Quần yellow"],
+      "responses": ["Dưới đây là một số mẫu Quần màu vàng bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu vàng đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu vàng sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần white",
+      "patterns": ["Quần white", "Quần white"],
+      "responses": ["Dưới đây là một số mẫu Quần màu trắng bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu trắng đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu trắng sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần black",
+      "patterns": ["Quần black", "Quần black"],
+      "responses": ["Dưới đây là một số mẫu Quần màu đen bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu đen đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu đen sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần blue",
+      "patterns": ["Quần blue", "Quần blue"],
+      "responses": ["Dưới đây là một số mẫu Quần màu xanh lam bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu xanh lam đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu xanh lam sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần gray",
+      "patterns": ["Quần gray", "Quần gray"],
+      "responses": ["Dưới đây là một số mẫu Quần màu xám bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu xám đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu xám sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần pink",
+      "patterns": ["Quần pink", "Quần pink"],
+      "responses": ["Dưới đây là một số mẫu Quần màu hồng bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu hồng đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu hồng sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần green",
+      "patterns": ["Quần green", "quần green"],
+      "responses": ["Dưới đây là một số mẫu Quần màu xanh lục bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu xanh lục đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu xanh lục sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần brown",
+      "patterns": ["Quần brown", "quần brown"],
+      "responses": ["Dưới đây là một số mẫu Quần màu nâu bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu nâu đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu nâu sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Kính red",
+      "patterns": ["Kính red", "Kính Red"],
+      "responses": ["Dưới đây là một số mẫu Kính màu đỏ bạn có thể tham khảo:", "Chúng tôi có một số mẫu Kính màu đỏ đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Kính màu đỏ sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Kính yellow",
+      "patterns": ["Kính yellow", "Kính yellow"],
+      "responses": ["Dưới đây là một số mẫu Kính màu vàng bạn có thể tham khảo:", "Chúng tôi có một số mẫu Kính màu vàng đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Kính màu vàng sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Kính white",
+      "patterns": ["Kính white", "Kính white"],
+      "responses": ["Dưới đây là một số mẫu Kính màu trắng bạn có thể tham khảo:", "Chúng tôi có một số mẫu Kính màu trắng đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Kính màu trắng sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Kính black",
+      "patterns": ["Kính black", "Kính black"],
+      "responses": ["Dưới đây là một số mẫu Kính màu đen bạn có thể tham khảo:", "Chúng tôi có một số mẫu Kính màu đen đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Kính màu đen sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Kính blue",
+      "patterns": ["Kính blue", "Kính blue"],
+      "responses": ["Dưới đây là một số mẫu Kính màu xanh lam bạn có thể tham khảo:", "Chúng tôi có một số mẫu Kính màu xanh lam đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Kính màu xanh lam sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Kính gray",
+      "patterns": ["Kính gray", "Kính gray"],
+      "responses": ["Dưới đây là một số mẫu Kính màu xám bạn có thể tham khảo:", "Chúng tôi có một số mẫu Kính màu xám đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Kính màu xám sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Kính pink",
+      "patterns": ["Kính pink", "Kính pink"],
+      "responses": ["Dưới đây là một số mẫu Kính màu hồng bạn có thể tham khảo:", "Chúng tôi có một số mẫu Kính màu hồng đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Kính màu hồng sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Kính green",
+      "patterns": ["Kính green", "Kính green"],
+      "responses": ["Dưới đây là một số mẫu Kính màu xanh lục bạn có thể tham khảo:", "Chúng tôi có một số mẫu Kính màu xanh lục đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Kính màu xanh lục sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Kính brown",
+      "patterns": ["Kính brown", "Kính brown"],
+      "responses": ["Dưới đây là một số mẫu Kính màu nâu bạn có thể tham khảo:", "Chúng tôi có một số mẫu Kính màu nâu đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Kính màu nâu sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày red",
+      "patterns": ["Giày red", "Giày Red"],
+      "responses": ["Dưới đây là một số mẫu Giày màu đỏ bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu đỏ đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu đỏ sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày yellow",
+      "patterns": ["Giày yellow", "Giày yellow"],
+      "responses": ["Dưới đây là một số mẫu Giày màu vàng bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu vàng đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu vàng sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày white",
+      "patterns": ["Giày white", "Giày white"],
+      "responses": ["Dưới đây là một số mẫu Giày màu trắng bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu trắng đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu trắng sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày black",
+      "patterns": ["Giày black", "Giày black"],
+      "responses": ["Dưới đây là một số mẫu Giày màu đen bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu đen đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu đen sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày blue",
+      "patterns": ["Giày blue", "Giày blue"],
+      "responses": ["Dưới đây là một số mẫu Giày màu xanh lam bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu xanh lam đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu xanh lam sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày gray",
+      "patterns": ["Giày gray", "Giày gray"],
+      "responses": ["Dưới đây là một số mẫu Giày màu xám bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu xám đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu xám sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày pink",
+      "patterns": ["Giày pink", "Giày pink"],
+      "responses": ["Dưới đây là một số mẫu Giày màu hồng bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu hồng đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu hồng sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày green",
+      "patterns": ["Giày green", "Giày green"],
+      "responses": ["Dưới đây là một số mẫu Giày màu xanh lục bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu xanh lục đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu xanh lục sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày brown",
+      "patterns": ["Giày brown", "Giày brown"],
+      "responses": ["Dưới đây là một số mẫu Giày màu nâu bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu nâu đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu nâu sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Mũ red",
+      "patterns": ["Mũ red", "Mũ Red"],
+      "responses": ["Dưới đây là một số mẫu Mũ màu đỏ bạn có thể tham khảo:", "Chúng tôi có một số mẫu Mũ màu đỏ đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Mũ màu đỏ sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Mũ yellow",
+      "patterns": ["Mũ yellow", "Mũ yellow"],
+      "responses": ["Dưới đây là một số mẫu Mũ màu vàng bạn có thể tham khảo:", "Chúng tôi có một số mẫu Mũ màu vàng đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Mũ màu vàng sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Mũ white",
+      "patterns": ["Mũ white", "Mũ white"],
+      "responses": ["Dưới đây là một số mẫu Mũ màu trắng bạn có thể tham khảo:", "Chúng tôi có một số mẫu Mũ màu trắng đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Mũ màu trắng sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Mũ black",
+      "patterns": ["Mũ black", "Mũ black"],
+      "responses": ["Dưới đây là một số mẫu Mũ màu đen bạn có thể tham khảo:", "Chúng tôi có một số mẫu Mũ màu đen đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Mũ màu đen sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Mũ blue",
+      "patterns": ["Mũ blue", "Mũ blue"],
+      "responses": ["Dưới đây là một số mẫu Mũ màu xanh lam bạn có thể tham khảo:", "Chúng tôi có một số mẫu Mũ màu xanh lam đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Mũ màu xanh lam sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Mũ gray",
+      "patterns": ["Mũ gray", "Mũ gray"],
+      "responses": ["Dưới đây là một số mẫu Mũ màu xám bạn có thể tham khảo:", "Chúng tôi có một số mẫu Mũ màu xám đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Mũ màu xám sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Mũ pink",
+      "patterns": ["Mũ pink", "Mũ pink"],
+      "responses": ["Dưới đây là một số mẫu Mũ màu hồng bạn có thể tham khảo:", "Chúng tôi có một số mẫu Mũ màu hồng đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Mũ màu hồng sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Mũ green",
+      "patterns": ["Mũ green", "Mũ green"],
+      "responses": ["Dưới đây là một số mẫu Mũ màu xanh lục bạn có thể tham khảo:", "Chúng tôi có một số mẫu Mũ màu xanh lục đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Mũ màu xanh lục sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Mũ brown",
+      "patterns": ["Mũ brown", "Mũ brown"],
+      "responses": ["Dưới đây là một số mẫu Mũ màu nâu bạn có thể tham khảo:", "Chúng tôi có một số mẫu Mũ màu nâu đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Mũ màu nâu sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày red 38",
+      "patterns": ["Giày red 38", "Giày Red 38"],
+      "responses": ["Dưới đây là một số mẫu Giày màu đỏ size 38 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu đỏ size 38 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu đỏ size 38 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày yellow 38",
+      "patterns": ["Giày yellow 38", "Giày yellow 38"],
+      "responses": ["Dưới đây là một số mẫu Giày màu vàng size 38 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu vàng size 38 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu vàng size 38 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày white 38",
+      "patterns": ["Giày white 38", "Giày white 38"],
+      "responses": ["Dưới đây là một số mẫu Giày màu trắng size 38 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu trắng size 38 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu trắng size 38 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày black 38",
+      "patterns": ["Giày black 38", "Giày black 38"],
+      "responses": ["Dưới đây là một số mẫu Giày màu đen size 38 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu đen size 38 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu đen size 38 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày blue 38",
+      "patterns": ["Giày blue", "Giày blue"],
+      "responses": ["Dưới đây là một số mẫu Giày màu xanh lam size 38 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu xanh lam size 38 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu xanh lam size 38 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày gray 38",
+      "patterns": ["Giày gray 38", "Giày gray 38"],
+      "responses": ["Dưới đây là một số mẫu Giày màu xám size 38 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu xám size 38 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu xám size 38 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày pink 38",
+      "patterns": ["Giày pink 38", "Giày pink 38"],
+      "responses": ["Dưới đây là một số mẫu Giày màu hồng size 38 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu hồng size 38 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu hồng size 38 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày green 38",
+      "patterns": ["Giày green 38", "Giày green 38"],
+      "responses": ["Dưới đây là một số mẫu Giày màu xanh lục size 38 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu xanh lục size 38 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu xanh lục size 38 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày red 39",
+      "patterns": ["Giày red 39", "Giày Red 39"],
+      "responses": ["Dưới đây là một số mẫu Giày màu đỏ size 39 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu đỏ size 39 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu đỏ size 39 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày yellow 39",
+      "patterns": ["Giày yellow 39", "Giày yellow 39"],
+      "responses": ["Dưới đây là một số mẫu Giày màu vàng size 39 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu vàng size 39 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu vàng size 39 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày white 39",
+      "patterns": ["Giày white 39", "Giày white 39"],
+      "responses": ["Dưới đây là một số mẫu Giày màu trắng size 39 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu trắng size 39 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu trắng size 39 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày black 39",
+      "patterns": ["Giày black 39", "Giày black 39"],
+      "responses": ["Dưới đây là một số mẫu Giày màu đen size 39 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu đen size 39 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu đen size 39 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày blue 39",
+      "patterns": ["Giày blue", "Giày blue"],
+      "responses": ["Dưới đây là một số mẫu Giày màu xanh lam size 39 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu xanh lam size 39 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu xanh lam size 39 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày gray 39",
+      "patterns": ["Giày gray 39", "Giày gray 39"],
+      "responses": ["Dưới đây là một số mẫu Giày màu xám size 39 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu xám size 39 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu xám size 39 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày pink 39",
+      "patterns": ["Giày pink 39", "Giày pink 39"],
+      "responses": ["Dưới đây là một số mẫu Giày màu hồng size 39 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu hồng size 39 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu hồng size 39 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày green 39",
+      "patterns": ["Giày green 39", "Giày green 39"],
+      "responses": ["Dưới đây là một số mẫu Giày màu xanh lục size 39 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu xanh lục size 39 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu xanh lục size 39 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày red 40",
+      "patterns": ["Giày red 40", "Giày Red 40"],
+      "responses": ["Dưới đây là một số mẫu Giày màu đỏ size 40 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu đỏ size 40 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu đỏ size 40 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày yellow 40",
+      "patterns": ["Giày yellow 40", "Giày yellow 40"],
+      "responses": ["Dưới đây là một số mẫu Giày màu vàng size 40 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu vàng size 40 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu vàng size 40 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày white 40",
+      "patterns": ["Giày white 40", "Giày white 40"],
+      "responses": ["Dưới đây là một số mẫu Giày màu trắng size 40 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu trắng size 40 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu trắng size 40 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày black 40",
+      "patterns": ["Giày black 40", "Giày black 40"],
+      "responses": ["Dưới đây là một số mẫu Giày màu đen size 40 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu đen size 40 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu đen size 40 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày blue 40",
+      "patterns": ["Giày blue", "Giày blue"],
+      "responses": ["Dưới đây là một số mẫu Giày màu xanh lam size 40 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu xanh lam size 40 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu xanh lam size 40 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày gray 40",
+      "patterns": ["Giày gray 40", "Giày gray 40"],
+      "responses": ["Dưới đây là một số mẫu Giày màu xám size 40 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu xám size 40 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu xám size 40 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày pink 40",
+      "patterns": ["Giày pink 40", "Giày pink 40"],
+      "responses": ["Dưới đây là một số mẫu Giày màu hồng size 40 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu hồng size 40 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu hồng size 40 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày green 40",
+      "patterns": ["Giày green 40", "Giày green 40"],
+      "responses": ["Dưới đây là một số mẫu Giày màu xanh lục size 40 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu xanh lục size 40 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu xanh lục size 40 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày red 41",
+      "patterns": ["Giày red 41", "Giày Red 41"],
+      "responses": ["Dưới đây là một số mẫu Giày màu đỏ size 41 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu đỏ size 41 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu đỏ size 41 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày yellow 41",
+      "patterns": ["Giày yellow 41", "Giày yellow 41"],
+      "responses": ["Dưới đây là một số mẫu Giày màu vàng size 41 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu vàng size 41 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu vàng size 41 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày white 41",
+      "patterns": ["Giày white 41", "Giày white 41"],
+      "responses": ["Dưới đây là một số mẫu Giày màu trắng size 41 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu trắng size 41 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu trắng size 41 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày black 41",
+      "patterns": ["Giày black 41", "Giày black 41"],
+      "responses": ["Dưới đây là một số mẫu Giày màu đen size 41 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu đen size 41 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu đen size 41 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày blue 41",
+      "patterns": ["Giày blue", "Giày blue"],
+      "responses": ["Dưới đây là một số mẫu Giày màu xanh lam size 41 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu xanh lam size 41 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu xanh lam size 41 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày gray 41",
+      "patterns": ["Giày gray 41", "Giày gray 41"],
+      "responses": ["Dưới đây là một số mẫu Giày màu xám size 41 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu xám size 41 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu xám size 41 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày pink 41",
+      "patterns": ["Giày pink 41", "Giày pink 41"],
+      "responses": ["Dưới đây là một số mẫu Giày màu hồng size 41 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu hồng size 41 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu hồng size 41 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày green 41",
+      "patterns": ["Giày green 41", "Giày green 41"],
+      "responses": ["Dưới đây là một số mẫu Giày màu xanh lục size 41 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu xanh lục size 41 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu xanh lục size 41 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày red 42",
+      "patterns": ["Giày red 42", "Giày Red 42"],
+      "responses": ["Dưới đây là một số mẫu Giày màu đỏ size 42 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu đỏ size 42 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu đỏ size 42 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày yellow 42",
+      "patterns": ["Giày yellow 42", "Giày yellow 42"],
+      "responses": ["Dưới đây là một số mẫu Giày màu vàng size 42 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu vàng size 42 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu vàng size 42 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày white 42",
+      "patterns": ["Giày white 42", "Giày white 42"],
+      "responses": ["Dưới đây là một số mẫu Giày màu trắng size 42 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu trắng size 42 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu trắng size 42 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày black 42",
+      "patterns": ["Giày black 42", "Giày black 42"],
+      "responses": ["Dưới đây là một số mẫu Giày màu đen size 42 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu đen size 42 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu đen size 42 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày blue 42",
+      "patterns": ["Giày blue", "Giày blue"],
+      "responses": ["Dưới đây là một số mẫu Giày màu xanh lam size 42 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu xanh lam size 42 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu xanh lam size 42 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày gray 42",
+      "patterns": ["Giày gray 42", "Giày gray 42"],
+      "responses": ["Dưới đây là một số mẫu Giày màu xám size 42 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu xám size 42 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu xám size 42 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày pink 42",
+      "patterns": ["Giày pink 42", "Giày pink 42"],
+      "responses": ["Dưới đây là một số mẫu Giày màu hồng size 42 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu hồng size 42 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu hồng size 42 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày green 42",
+      "patterns": ["Giày green 42", "Giày green 42"],
+      "responses": ["Dưới đây là một số mẫu Giày màu xanh lục size 42 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu xanh lục size 42 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu xanh lục size 42 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày red 43",
+      "patterns": ["Giày red 43", "Giày Red 43"],
+      "responses": ["Dưới đây là một số mẫu Giày màu đỏ size 43 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu đỏ size 43 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu đỏ size 43 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày yellow 43",
+      "patterns": ["Giày yellow 43", "Giày yellow 43"],
+      "responses": ["Dưới đây là một số mẫu Giày màu vàng size 43 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu vàng size 43 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu vàng size 43 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày white 43",
+      "patterns": ["Giày white 43", "Giày white 43"],
+      "responses": ["Dưới đây là một số mẫu Giày màu trắng size 43 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu trắng size 43 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu trắng size 43 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày black 43",
+      "patterns": ["Giày black 43", "Giày black 43"],
+      "responses": ["Dưới đây là một số mẫu Giày màu đen size 43 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu đen size 43 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu đen size 43 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày blue 43",
+      "patterns": ["Giày blue", "Giày blue"],
+      "responses": ["Dưới đây là một số mẫu Giày màu xanh lam size 43 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu xanh lam size 43 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu xanh lam size 43 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày gray 43",
+      "patterns": ["Giày gray 43", "Giày gray 43"],
+      "responses": ["Dưới đây là một số mẫu Giày màu xám size 43 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu xám size 43 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu xám size 43 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày pink 43",
+      "patterns": ["Giày pink 43", "Giày pink 43"],
+      "responses": ["Dưới đây là một số mẫu Giày màu hồng size 43 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu hồng size 43 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu hồng size 43 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Giày green 43",
+      "patterns": ["Giày green 43", "Giày green 43"],
+      "responses": ["Dưới đây là một số mẫu Giày màu xanh lục size 43 bạn có thể tham khảo:", "Chúng tôi có một số mẫu Giày màu xanh lục size 43 đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Giày màu xanh lục size 43 sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo red S",
+      "patterns": ["Áo red S", "áo Red S"],
+      "responses": ["Dưới đây là một số mẫu áo màu đỏ size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu đỏ size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu đỏ size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo yellow S",
+      "patterns": ["Áo yellow S", "áo yellow S"],
+      "responses": ["Dưới đây là một số mẫu áo màu vàng size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu vàng size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu vàng size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo white S",
+      "patterns": ["Áo white S", "áo white S"],
+      "responses": ["Dưới đây là một số mẫu áo màu trắng size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu trắng size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu trắng size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo black S",
+      "patterns": ["Áo black S", "áo black S"],
+      "responses": ["Dưới đây là một số mẫu áo màu đen size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu đen size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu đen size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo blue S",
+      "patterns": ["Áo blue S", "áo blue S"],
+      "responses": ["Dưới đây là một số mẫu áo màu xanh lam size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu xanh lam size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu xanh lam size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo gray S",
+      "patterns": ["Áo gray S", "áo gray S"],
+      "responses": ["Dưới đây là một số mẫu áo màu xám size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu xám size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu xám size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo pink S",
+      "patterns": ["Áo pink S", "áo pink S"],
+      "responses": ["Dưới đây là một số mẫu áo màu hồng size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu hồng size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu hồng size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo green S",
+      "patterns": ["Áo green S", "áo green S"],
+      "responses": ["Dưới đây là một số mẫu áo màu xanh lục size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu xanh lục size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu xanh lục size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo brown S",
+      "patterns": ["Áo brown S", "áo brown S"],
+      "responses": ["Dưới đây là một số mẫu áo màu nâu size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu nâu size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu nâu size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần red S",
+      "patterns": ["Quần red S", "Quần Red S"],
+      "responses": ["Dưới đây là một số mẫu Quần màu đỏ size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu đỏ size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu đỏ size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần yellow S",
+      "patterns": ["Quần yellow S", "Quần yellow S"],
+      "responses": ["Dưới đây là một số mẫu Quần màu vàng size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu vàng size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu vàng size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần white S",
+      "patterns": ["Quần white S", "Quần white S"],
+      "responses": ["Dưới đây là một số mẫu Quần màu trắng size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu trắng size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu trắng size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần black S",
+      "patterns": ["Quần black S", "Quần black S"],
+      "responses": ["Dưới đây là một số mẫu Quần màu đen size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu đen size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu đen size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần blue S",
+      "patterns": ["Quần blue S", "Quần blue S"],
+      "responses": ["Dưới đây là một số mẫu Quần màu xanh lam size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu xanh lam size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu xanh lam size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần gray S",
+      "patterns": ["Quần gray S", "Quần gray S"],
+      "responses": ["Dưới đây là một số mẫu Quần màu xám size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu xám size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu xám size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần pink S",
+      "patterns": ["Quần pink S", "Quần pink S"],
+      "responses": ["Dưới đây là một số mẫu Quần màu hồng size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu hồng size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu hồng size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần green S",
+      "patterns": ["Quần green S", "quần green S"],
+      "responses": ["Dưới đây là một số mẫu Quần màu xanh lục size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu xanh lục size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu xanh lục size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần brown S",
+      "patterns": ["Quần brown S", "quần brown S"],
+      "responses": ["Dưới đây là một số mẫu Quần màu nâu size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu nâu size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu nâu size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo red L",
+      "patterns": ["Áo red L", "áo Red L"],
+      "responses": ["Dưới đây là một số mẫu áo màu đỏ size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu đỏ size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu đỏ size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo yellow L",
+      "patterns": ["Áo yellow L", "áo yellow L"],
+      "responses": ["Dưới đây là một số mẫu áo màu vàng size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu vàng size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu vàng size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo white L",
+      "patterns": ["Áo white L", "áo white L"],
+      "responses": ["Dưới đây là một số mẫu áo màu trắng size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu trắng size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu trắng size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo black L",
+      "patterns": ["Áo black L", "áo black L"],
+      "responses": ["Dưới đây là một số mẫu áo màu đen size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu đen size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu đen size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo blue L",
+      "patterns": ["Áo blue L", "áo blue L"],
+      "responses": ["Dưới đây là một số mẫu áo màu xanh lam size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu xanh lam size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu xanh lam size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo gray L",
+      "patterns": ["Áo gray L", "áo gray L"],
+      "responses": ["Dưới đây là một số mẫu áo màu xám size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu xám size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu xám size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo pink L",
+      "patterns": ["Áo pink L", "áo pink L"],
+      "responses": ["Dưới đây là một số mẫu áo màu hồng size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu hồng size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu hồng size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo green L",
+      "patterns": ["Áo green L", "áo green L"],
+      "responses": ["Dưới đây là một số mẫu áo màu xanh lục size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu xanh lục size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu xanh lục size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo brown L",
+      "patterns": ["Áo brown L", "áo brown L"],
+      "responses": ["Dưới đây là một số mẫu áo màu nâu size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu nâu size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu nâu size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần red L",
+      "patterns": ["Quần red L", "Quần Red L"],
+      "responses": ["Dưới đây là một số mẫu Quần màu đỏ size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu đỏ size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu đỏ size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần yellow L",
+      "patterns": ["Quần yellow L", "Quần yellow L"],
+      "responses": ["Dưới đây là một số mẫu Quần màu vàng size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu vàng size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu vàng size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần white L",
+      "patterns": ["Quần white L", "Quần white L"],
+      "responses": ["Dưới đây là một số mẫu Quần màu trắng size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu trắng size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu trắng size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần black L",
+      "patterns": ["Quần black L", "Quần black L"],
+      "responses": ["Dưới đây là một số mẫu Quần màu đen size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu đen size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu đen size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần blue L",
+      "patterns": ["Quần blue L", "Quần blue L"],
+      "responses": ["Dưới đây là một số mẫu Quần màu xanh lam size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu xanh lam size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu xanh lam size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần gray L",
+      "patterns": ["Quần gray L", "Quần gray L"],
+      "responses": ["Dưới đây là một số mẫu Quần màu xám size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu xám size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu xám size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần pink L",
+      "patterns": ["Quần pink L", "Quần pink L"],
+      "responses": ["Dưới đây là một số mẫu Quần màu hồng size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu hồng size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu hồng size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần green L",
+      "patterns": ["Quần green L", "quần green L"],
+      "responses": ["Dưới đây là một số mẫu Quần màu xanh lục size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu xanh lục size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu xanh lục size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần brown L",
+      "patterns": ["Quần brown L", "quần brown L"],
+      "responses": ["Dưới đây là một số mẫu Quần màu nâu size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu nâu size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu nâu size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo red XL",
+      "patterns": ["Áo red XL", "áo Red XL"],
+      "responses": ["Dưới đây là một số mẫu áo màu đỏ size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu đỏ size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu đỏ size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo yellow XL",
+      "patterns": ["Áo yellow XL", "áo yellow XL"],
+      "responses": ["Dưới đây là một số mẫu áo màu vàng size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu vàng size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu vàng size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo white XL",
+      "patterns": ["Áo white XL", "áo white XL"],
+      "responses": ["Dưới đây là một số mẫu áo màu trắng size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu trắng size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu trắng size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo black XL",
+      "patterns": ["Áo black XL", "áo black XL"],
+      "responses": ["Dưới đây là một số mẫu áo màu đen size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu đen size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu đen size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo blue XL",
+      "patterns": ["Áo blue XL", "áo blue XL"],
+      "responses": ["Dưới đây là một số mẫu áo màu xanh lam size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu xanh lam size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu xanh lam size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo gray XL",
+      "patterns": ["Áo gray XL", "áo gray XL"],
+      "responses": ["Dưới đây là một số mẫu áo màu xám size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu xám size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu xám size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo pink XL",
+      "patterns": ["Áo pink XL", "áo pink XL"],
+      "responses": ["Dưới đây là một số mẫu áo màu hồng size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu hồng size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu hồng size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo green XL",
+      "patterns": ["Áo green XL", "áo green XL"],
+      "responses": ["Dưới đây là một số mẫu áo màu xanh lục size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu xanh lục size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu xanh lục size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo brown XL",
+      "patterns": ["Áo brown XL", "áo brown XL"],
+      "responses": ["Dưới đây là một số mẫu áo màu nâu size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo màu nâu size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo màu nâu size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần red XL",
+      "patterns": ["Quần red XL", "Quần Red XL"],
+      "responses": ["Dưới đây là một số mẫu Quần màu đỏ size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu đỏ size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu đỏ size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần yellow XL",
+      "patterns": ["Quần yellow XL", "Quần yellow XL"],
+      "responses": ["Dưới đây là một số mẫu Quần màu vàng size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu vàng size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu vàng size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần white XL",
+      "patterns": ["Quần white XL", "Quần white XL"],
+      "responses": ["Dưới đây là một số mẫu Quần màu trắng size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu trắng size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu trắng size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần black XL",
+      "patterns": ["Quần black XL", "Quần black XL"],
+      "responses": ["Dưới đây là một số mẫu Quần màu đen size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu đen size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu đen size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần blue XL",
+      "patterns": ["Quần blue XL", "Quần blue XL"],
+      "responses": ["Dưới đây là một số mẫu Quần màu xanh lam size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu xanh lam size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu xanh lam size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần gray XL",
+      "patterns": ["Quần gray XL", "Quần gray XL"],
+      "responses": ["Dưới đây là một số mẫu Quần màu xám size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu xám size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu xám size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần pink XL",
+      "patterns": ["Quần pink XL", "Quần pink XL"],
+      "responses": ["Dưới đây là một số mẫu Quần màu hồng size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu hồng size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu hồng size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần green XL",
+      "patterns": ["Quần green XL", "quần green XL"],
+      "responses": ["Dưới đây là một số mẫu Quần màu xanh lục size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu xanh lục size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu xanh lục size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần brown XL",
+      "patterns": ["Quần brown XL", "quần brown XL"],
+      "responses": ["Dưới đây là một số mẫu Quần màu nâu size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần màu nâu size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần màu nâu size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "red S",
+      "patterns": ["red S", "Red S"],
+      "responses": ["Dưới đây là một số mẫu màu đỏ size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu đỏ size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu đỏ size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "yellow S",
+      "patterns": ["yellow S", "yellow S"],
+      "responses": ["Dưới đây là một số mẫu màu vàng size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu vàng size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu vàng size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "white S",
+      "patterns": ["white S", "white S"],
+      "responses": ["Dưới đây là một số mẫu màu trắng size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu trắng size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu trắng size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "black S",
+      "patterns": ["black S", "black S"],
+      "responses": ["Dưới đây là một số mẫu màu đen size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu đen size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu đen size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "blue S",
+      "patterns": ["blue S", "blue S"],
+      "responses": ["Dưới đây là một số mẫu màu xanh lam size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu xanh lam size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu xanh lam size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "gray S",
+      "patterns": ["gray S", "gray S"],
+      "responses": ["Dưới đây là một số mẫu màu xám size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu xám size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu xám size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "pink S",
+      "patterns": ["pink S", "pink S"],
+      "responses": ["Dưới đây là một số mẫu màu hồng size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu hồng size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu hồng size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "green S",
+      "patterns": ["green S", "green S"],
+      "responses": ["Dưới đây là một số mẫu màu xanh lục size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu xanh lục size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu xanh lục size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "brown S",
+      "patterns": ["brown S", "brown S"],
+      "responses": ["Dưới đây là một số mẫu màu nâu size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu nâu size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu nâu size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "red L",
+      "patterns": ["red L", "Red L"],
+      "responses": ["Dưới đây là một số mẫu màu đỏ size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu đỏ size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu đỏ size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "yellow L",
+      "patterns": ["yellow L", "yellow L"],
+      "responses": ["Dưới đây là một số mẫu màu vàng size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu vàng size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu vàng size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "white L",
+      "patterns": ["white L", "white L"],
+      "responses": ["Dưới đây là một số mẫu màu trắng size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu trắng size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu trắng size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "black L",
+      "patterns": ["black L", "black L"],
+      "responses": ["Dưới đây là một số mẫu màu đen size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu đen size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu đen size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "blue L",
+      "patterns": ["blue L", "blue L"],
+      "responses": ["Dưới đây là một số mẫu màu xanh lam size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu xanh lam size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu xanh lam size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "gray L",
+      "patterns": ["gray L", "gray L"],
+      "responses": ["Dưới đây là một số mẫu màu xám size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu xám size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu xám size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "pink L",
+      "patterns": ["pink L", "pink L"],
+      "responses": ["Dưới đây là một số mẫu màu hồng size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu hồng size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu hồng size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "green L",
+      "patterns": ["green L", "green L"],
+      "responses": ["Dưới đây là một số mẫu màu xanh lục size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu xanh lục size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu xanh lục size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "brown L",
+      "patterns": ["brown L", "brown L"],
+      "responses": ["Dưới đây là một số mẫu màu nâu size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu nâu size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu nâu size L sau đây:"],
+    "context": [""]
+    },
+    
+    {
+      "tag": "red XL",
+      "patterns": ["red XL", "Red XL"],
+      "responses": ["Dưới đây là một số mẫu màu đỏ size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu đỏ size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu đỏ size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "yellow XL",
+      "patterns": ["yellow XL", "yellow XL"],
+      "responses": ["Dưới đây là một số mẫu màu vàng size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu vàng size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu vàng size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "white XL",
+      "patterns": ["white XL", "white XL"],
+      "responses": ["Dưới đây là một số mẫu màu trắng size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu trắng size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu trắng size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "black XL",
+      "patterns": ["black XL", "black XL"],
+      "responses": ["Dưới đây là một số mẫu màu đen size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu đen size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu đen size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "blue XL",
+      "patterns": ["blue XL", "blue XL"],
+      "responses": ["Dưới đây là một số mẫu màu xanh lam size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu xanh lam size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu xanh lam size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "gray XL",
+      "patterns": ["gray XL", "gray XL"],
+      "responses": ["Dưới đây là một số mẫu màu xám size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu xám size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu xám size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "pink XL",
+      "patterns": ["pink XL", "pink XL"],
+      "responses": ["Dưới đây là một số mẫu màu hồng size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu hồng size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu hồng size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "green XL",
+      "patterns": ["green XL", "green XL"],
+      "responses": ["Dưới đây là một số mẫu màu xanh lục size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu xanh lục size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu xanh lục size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "brown XL",
+      "patterns": ["brown XL", "brown XL"],
+      "responses": ["Dưới đây là một số mẫu màu nâu size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu màu nâu size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu màu nâu size XL sau đây:"],
+    "context": [""]
+    },
+    
+    {
+      "tag": "Áo XL",
+      "patterns": ["Áo XL", "áo XL"],
+      "responses": ["Dưới đây là một số mẫu áo size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo L",
+      "patterns": ["Áo L", "áo L"],
+      "responses": ["Dưới đây là một số mẫu áo size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Áo S",
+      "patterns": ["Áo S", "áo S"],
+      "responses": ["Dưới đây là một số mẫu áo size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu áo size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu áo size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần XL",
+      "patterns": ["Quần XL", "Quần XL"],
+      "responses": ["Dưới đây là một số mẫu Quần size XL bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần size XL đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần size XL sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần L",
+      "patterns": ["Quần L", "Quần L"],
+      "responses": ["Dưới đây là một số mẫu Quần size L bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần size L đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần size L sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "Quần S",
+      "patterns": ["Quần S", "Quần S"],
+      "responses": ["Dưới đây là một số mẫu Quần size S bạn có thể tham khảo:", "Chúng tôi có một số mẫu Quần size S đẹp dành cho bạn:", "Bạn có thể tham khảo các mẫu Quần size S sau đây:"],
+    "context": [""]
+    },
+    {
+      "tag": "S",
+      "patterns": [
+        "size S"
+      ],
+      "responses": ["Có một số mẫu size S tôi nghĩ sẽ phù hợp với bạn: "],
+      "context": [""]
+    },
+    {
+      "tag": "L",
+      "patterns": [
+        "size L"
+        
+      ],
+      "responses": ["Có một số mẫu size L tôi nghĩ sẽ phù hợp với bạn: "],
+      "context": [""]
+    },
+    {
+      "tag": "XL",
+      "patterns": [
+        "size XL"
+      
+      ],
+      "responses": ["Có một số mẫu size XL tôi nghĩ sẽ phù hợp với bạn: "],
+      "context": [""]
+    },
+    {
+      "tag": "38",
+      "patterns": ["size 38"],
+      "responses": ["Size giày phù hợp với bạn là size 38"],
+      "context": [""]
+    },
+    {
+      "tag": "39",
+      "patterns": [
+        "size 39"
+      ],
+      "responses": ["Size giày phù hợp với bạn là size 39"],
+      "context": [""]
+    },
+    {
+      "tag": "40",
+      "patterns": ["size 40"],
+      "responses": ["Size giày phù hợp với bạn là size 40"],
+      "context": [""]
+    },
+    {
+      "tag": "41",
+      "patterns": [
+        "size 41"
+      ],
+      "responses": ["Size giày phù hợp với bạn là size 41"],
+      "context": [""]
+    },
+    {
+      "tag": "42",
+      "patterns": [
+        "size 42"
+      ],
+      "responses": ["Size giày phù hợp với bạn là size 42"],
+      "context": [""]
+    },
+    {
+      "tag": "43",
+      "patterns": [
+        "size 43"
+      ],
+      "responses": ["Size giày phù hợp với bạn là size 43"],
+      "context": [""]
+    },
+   {
+    "tag": "SDT",
+    "patterns": ["SDT","SDT","sdt","sdt"],
+    "responses": ["Bạn có thể liên hệ tới nhóm 2 số điện thoại: 0375250833"],
+"context": [""] },
+{
+  "tag": "",
+  "patterns": [""],
+  "responses": ["Tôi cần nhiều thông tin hơn"],
+"context": [""] }
+  
+    
+    ]
+  }
+  

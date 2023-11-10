@@ -151,6 +151,7 @@ public class OrderController {
 			String signature = Decode.encode(Constant.serectkey, decode);
 			jsonRequest.setSignature(signature);
 			String json = mapper.writeValueAsString(jsonRequest);
+			System.out.println("tôi ở đây 1");
 			HttpClient client = HttpClient.newHttpClient();
 			ResultMoMo res = new ResultMoMo();
 
@@ -262,10 +263,11 @@ public class OrderController {
 			Collections.reverse(listOrder);
 			model.addAttribute("listOrder", listOrder);
 			System.out.println(listOrder);
-			for (Order y : listOrder) {
-				System.out.println(y.getOrder_Item());
-			}
+//			for (Order y : listOrder) {
+//				System.out.println(y.getOrder_Item());
+//			}
 		}
 		return "myhistory";
 	}
+	
 }

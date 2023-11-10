@@ -82,14 +82,14 @@
 									<div class="color-selector">
 
 										<div class="entry color" style="display: block;"
-											th:style="'background:' + ${y.product_details.color}">&nbsp;
+											th:style="'background:' + ${y.product_details.color.strColor}">&nbsp;
 										</div>
 									</div>
 
 								</div>
 							</td>
 							<td>
-								<div class="entry size " th:text="${y.product_details.size}"
+								<div class="entry size " th:text="${y.product_details.size.strSize}"
 									th:if="${y.product_details.size!=1}">
 
 								</div>
